@@ -1,0 +1,120 @@
+.bg{
+  background: url('../images/login.png') no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+}
+
+.form-container{
+  position: relative;
+  top: 30vh;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.jumbotron{
+  background-image: url(../images/sr.jpg);
+  background-size: cover;
+  color: #fff;
+  margin: 1;
+}
+
+.champ{
+  background-image: url('../images/champion.jpeg');
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  background-position: 40%;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tanks{
+  background-image: url('../images/tanks.jpeg');
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: 100%;
+}
+
+.fighters{
+  background-image: url('../images/fighters.jpeg');
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: 100%;
+}
+
+.mages{
+  background-image: url('../images/mages.jpeg');
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: 100%;
+}
+
+.assassins{
+  background-image: url('../images/assassins.jpeg');
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: 100%;
+}
+
+.marksmen{
+  background-image: url('../images/marksmen.jpeg');
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: 100%;
+}
+
+.supports{
+  background-image: url('../images/supports.jpeg');
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: 100%;
+}
+
+.delMargin{
+  margin-top: -19;
+}
+
+.champion-ezreal{
+  background-image: url('../images/ezreal.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.champion-riven{
+  background-image: url('../images/riven.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.champion-leesin{
+  background-image: url('../images/leesin.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.champion-yasuo{
+  background-image: url('../images/yasuo.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 100px;
+  height: 100px;
+}
