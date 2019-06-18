@@ -118,3 +118,163 @@
   width: 100px;
   height: 100px;
 }
+
+.ls-passive{
+  background-image: url('../images/ls-passive.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ls-q{
+  background-image: url('../images/ls-q.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ls-w{
+  background-image: url('../images/ls-w.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ls-e{
+  background-image: url('../images/ls-e.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ls-r{
+  background-image: url('../images/ls-r.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ys-passive{
+  background-image: url('../images/ys-passive.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ys-q{
+  background-image: url('../images/ys-q.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ys-w{
+  background-image: url('../images/ys-w.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ys-e{
+  background-image: url('../images/ys-e.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ys-r{
+  background-image: url('../images/ys-r.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.rv-passive{
+  background-image: url('../images/rv-passive.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.rv-q{
+  background-image: url('../images/rv-q.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.rv-w{
+  background-image: url('../images/rv-w.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.rv-e{
+  background-image: url('../images/rv-e.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.rv-r{
+  background-image: url('../images/rv-r.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ez-passive{
+  background-image: url('../images/ez-passive.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ez-q{
+  background-image: url('../images/ez-q.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ez-w{
+  background-image: url('../images/ez-w.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ez-e{
+  background-image: url('../images/ez-e.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ez-r{
+  background-image: url('../images/ez-r.png');
+  background-size: cover;
+  background-position: 100%;
+  width: 50px;
+  height: 50px;
+}
