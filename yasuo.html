@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -14,54 +15,65 @@
         		<!-- JQuery-->
 		        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <title>yasuo</title>
+        <style>
+                hr {
+                    background-color: black;
+                    height: 3px;
+                }
+            </style>
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid ysbg">
             <div>
-                <h2>passive</h2>
+                <h2>Passive</h2>
                 <h2>Way of the Wanderer</h2>
                 <div class="ys-passive"></div>
-                Intent: Yasuo's critical strike chance is doubled, but the damage dealt by his critical strikes is reduced by 10%.<br/>
-                Resolve: Yasuo gains Flow as he moves – the faster he moves, the faster his Flow meter fills. When full, Yasuo activates a brief shield after taking damage from enemy champions or monsters.
+                <p> Intent: Yasuo's critical strike chance is doubled, but the damage dealt by his critical strikes is reduced by 10%.<br/>
+                    Resolve: Yasuo gains Flow as he moves – the faster he moves, the faster his Flow meter fills. When full, Yasuo activates a brief shield after taking damage from enemy champions or monsters.</p>
+            </div> 
+            <hr>       
             <div>
                 <h2>Q</h2>
                 <h2>Steel Tempest</h2>
                 <div class="ys-q"></div>
-                Range: 475 <br>
-                Cost: 0 <br>
-                Cooldown: 4 <br>
-                Desc: First and Second cast: Yasuo thrusts forward with his sword, dealing 20 / 45 / 70 / 95 / 120 (+1.0 per attack damage) physical damage to all enemies in a line. Successfully landing Steel Tempest grants Yasuo Gathering Storm stacks for 6 seconds.<br />
-                Third Cast: The third stack of Gathering Storm causes Steel Tempest to send out a whirlwind that travels in a line of 900 range and sends all enemies caught Airborne. This whirlwind deals 20 / 45 / 70 / 95 / 120 (+1.0 per attack damage) physical damage to everyone hit.<br />
-                If Yasuo casts Steel Tempest during Sweeping Blade, the ability strikes all enemies immediately around him, having a radius of 375 instead.<br />
-                Steel Tempest can critically strike for 160% damage and apply on hit effects for the first target hit. The ability is also unaffected by cooldown reduction, instead, the cooldown and cast time is reduced by Yasuo's attack speed.
+                <p>Range: 475</p>
+                <p>Cost: 0</p>
+                <p>Cooldown: 4</p>
+                <p> Desc: First and Second cast: Yasuo thrusts forward with his sword, dealing 20 / 45 / 70 / 95 / 120 (+1.0 per attack damage) physical damage to all enemies in a line. Successfully landing Steel Tempest grants Yasuo Gathering Storm stacks for 6 seconds.<br />
+                    Third Cast: The third stack of Gathering Storm causes Steel Tempest to send out a whirlwind that travels in a line of 900 range and sends all enemies caught Airborne. This whirlwind deals 20 / 45 / 70 / 95 / 120 (+1.0 per attack damage) physical damage to everyone hit.<br />
+                    If Yasuo casts Steel Tempest during Sweeping Blade, the ability strikes all enemies immediately around him, having a radius of 375 instead.<br />
+                    Steel Tempest can critically strike for 160% damage and apply on hit effects for the first target hit. The ability is also unaffected by cooldown reduction, instead, the cooldown and cast time is reduced by Yasuo's attack speed.</p>
             </div>
+            <hr>
             <div>
                 <h2>W</h2>
                 <h2>Wind Wall</h2>
                 <div class="ys-w"></div>
-                Range: 400 <br>
-                Cost: 0 <br>
-                Cooldown: 26 / 24 / 22 / 20 / 18 <br>
-                Desc: Active: Yasuo creates a wall of wind with a width of 300/350/400/450/500, that slowly drifts forward for 3,75 seconds. The wall blocks all enemy projectiles except tower hits.
+                <p>Range: 400</p>
+                <p>Cost: 0</p>
+                <p>Cooldown: 26 / 24 / 22 / 20 / 18</p>
+                <p>Desc: Active: Yasuo creates a wall of wind with a width of 300/350/400/450/500, that slowly drifts forward for 3,75 seconds. The wall blocks all enemy projectiles except tower hits.</p>
             </div>
+            <hr>
             <div>
                 <h2>E</h2>
                 <h2>Sweeping Blade</h2>
                 <div class="ys-e"></div>
-                Range: 475 <br>
-                Cost: 0 <br>
-                Cooldown: 0.5 / 0.4 / 0.3 / 0.2 / 0.1 <br>
-                Desc: Yasuo dashes a fixed distance through an enemy, dealing 60 / 70 / 80 / 90 / 100 (+60% of ability power) (+0.2 per bonus attack damage) magic damage and marking them briefly. If Yasuo uses Sweeping Blade multiple times in succession, the ability deals extra 25% base damage with a 50% bonus maximum. When sweeping blade is cast on a target, the target will get marked for 10 / 9 / 8 / 7 / 6 seconds. Yasuo cannot use Sweeping Blade on an enemy that's already been marked.
+                <p>Range: 475</p>
+                <p>Cost: 0</p>
+                <p>Cooldown: 0.5 / 0.4 / 0.3 / 0.2 / 0.1</p>
+                <p>Desc: Yasuo dashes a fixed distance through an enemy, dealing 60 / 70 / 80 / 90 / 100 (+60% of ability power) (+0.2 per bonus attack damage) magic damage and marking them briefly. If Yasuo uses Sweeping Blade multiple times in succession, the ability deals extra 25% base damage with a 50% bonus maximum. When sweeping blade is cast on a target, the target will get marked for 10 / 9 / 8 / 7 / 6 seconds. Yasuo cannot use Sweeping Blade on an enemy that's already been marked.</p>
             </div>
+            <hr>
             <div>
                 <h2>R</h2>
                 <h2>Last Breath</h2>
                 <div class="ys-r"></div>
-                Range: 1400 <br>
-                Cost: 0 <br>
-                Cooldown: 80 / 55 / 30 <br>
-                Yasuo gains maximum Flow, and teleports to a nearby Airborne enemy champion. Upon arrival, he suspends all airborne units within a 400-radius of his target in the air for 1 second while 200/300/400 (+1.5 per bonus attack damage) physical damage them. Once he lands, Yasuo gains 50% armor penetration on critical hits against his enemy's bonus armor for 15 seconds<br />
-                Casting Last Breath will reset the chain on Steel Tempest
+                <p>Range: 1400</p>
+                <p>Cost: 0</p>
+                <p>Cooldown: 80 / 55 / 30</p>
+                <p> Yasuo gains maximum Flow, and teleports to a nearby Airborne enemy champion. Upon arrival, he suspends all airborne units within a 400-radius of his target in the air for 1 second while 200/300/400 (+1.5 per bonus attack damage) physical damage them. Once he lands, Yasuo gains 50% armor penetration on critical hits against his enemy's bonus armor for 15 seconds<br />
+                    Casting Last Breath will reset the chain on Steel Tempest</p>
             </div>
         </div>
     </body>

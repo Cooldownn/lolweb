@@ -8,14 +8,48 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>		
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>	
+        <style>
+            .container {
+              position: relative;
+              width: 100%;
+              max-width: 400px;
+            }
+        
+            
+            .container .btn {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              background-color: #f1f1f1;
+              color:#fff;
+              font-size: 16px;
+              padding: 16px 30px;
+              border: none;
+              cursor: pointer;
+              border-radius: 5px;
+              text-align: center;
+              margin-top: -22%;
+              background-color:brown;
+              font-weight: bold;
+            }
+            </style>	
     </head>
-    <body>
-        <h1><img src="images/lolmainpage.png" alt="mainImage" style="width:100%;height:auto;margin:0 auto;"></h1>
+    <body style="background-color: #000">
         <!--Break into new line: <br> -->
-        <h1><center>JOIN THE LEAGUE - BECOME A LEGEND</center></h1>
-        <center>
-            <a href="login.html">PLAY FOR FREE</a>
-        </center>
+        <div>
+            <iframe width="1440" height="652" src="https://www.youtube.com/embed/BGtROJeMPeE?rel=0;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h1><img src="images/lolmainpage.png" alt="mainImage" style="width:100%;height:auto;margin:0 auto;"></h1>
+        </div>
+        <div>
+            <h1 style="color: #fff"><center>JOIN THE LEAGUE - BECOME A LEGEND</center></h1>
+        </div>
+        <div class="container">
+            <button class="btn" onclick="window.location = 'login.html'">PLAY FOR FREE</button>
+          </div>
     </body>
 </html>
