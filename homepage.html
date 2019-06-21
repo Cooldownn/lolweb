@@ -15,8 +15,9 @@
             <!-- JQuery-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script src="js/jquery-3.4.1.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
+            <!-- <script src="js/bootstrap.min.js"></script> -->
             <script src="js/bootstrap.js"></script>
+            <script src="scripts/main.js"></script>	
         <title>homepage</title>
     </head>
     <body style="background-color: black">
@@ -39,14 +40,46 @@
                   <li class="active"><a href="#jumbotron">About <span class="sr-only">(current)</span></a></li>
                   <li><a href="#role">Role</a></li>
                   <li><a href="#champions">Champions</a></li>
+                  <li> <a href="maps.html">Contact Us</a></li>
                 </ul>
-              <form>
                <div class="nav navbar-nav navbar-right">
-                  <p id="p1" class="name">
-                    <h3>WELCOME</h3>
-                  </p>
+                 <div>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">YOUR INFORMATION</button>
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title">INFORMATION</h4>
+                          </div>
+                          <div class="modal-body">
+                              <div class="form-group">
+                                  <label for="name">Name:</label>
+                                  <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="age">Age:</label>
+                                  <input type="number" class="form-control" id="age">
+                                </div>
+                                <div class="form-group">
+                                  <label for="address">Address:</label>
+                                  <input type="text" class="form-control" id="add">
+                                </div>
+                                <div class="form-group">
+                                  <label for="phonenum">Phone Number:</label>
+                                  <input type="number" class="form-control" id="phone">
+                                </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal" onclick="saveInfo();">Save</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                </div>   
-              </form>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
           </nav>
@@ -57,7 +90,6 @@
                 <p>The oldest and most venerated Field of Justice is known as Summoner’s Rift. 
                   The Rift is located in a remote forest between Freljord, the Serpentine River, and the Ironspine Mountains. 
                   The Summoner’s Rift is one of a few locations in Valoran where magical energy is at its greatest concentration, making it a highly sought after locale to pursue magical endeavors.</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
             </div>
           </div>
           <div class="container champ">
